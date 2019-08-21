@@ -23,13 +23,14 @@
                 <span data-placeholder="Password"></span>
             </div>
 
-            <input type="submit" class="logbtn" value="Login">
+            <input type="submit" class="logbtn" value="Login" onclick="test()">
 
             <div class="bottom-text">
                     Don't have account? <a href="#">Sign up</a>
             </div>
         </form>
-    
+
+    <script src="js/script.js"></script>
     <script type="text/javascript">
         $(".txtb input").on("focus",function(){
             $(this).addClass("focus");
@@ -39,7 +40,6 @@
             if($(this).val() == "")
             $(this).removeClass("focus");
         });
-      
     </script>
 </body>
 </html>
