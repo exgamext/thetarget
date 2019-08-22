@@ -14,19 +14,29 @@
     </div>
     <form action="index.html" class="login-form">
             <div class="txtb">
-                <input type="text" id="login-user">
+                <input type="text" id="cadastro-user">
                 <span data-placeholder="Usuário"></span>
             </div>
 
             <div class="txtb">
-                <input type="password" id="login-pass">
+                    <input type="email" id="cadastro-email">
+                    <span data-placeholder="E-mail"></span>
+            </div>
+
+            <div class="txtb">
+                <input type="password" id="cadastro-pass">
                 <span data-placeholder="Senha"></span>
             </div>
 
-            <input type="submit" class="logbtn" value="Entrar" onclick="login()">
+            <div class="txtb">
+                    <input type="password" id="cadastro-pass2">
+                    <span data-placeholder="Confirmar senha"></span>
+            </div>
+
+            <input type="button" class="logbtn" value="Registrar" onclick="registrar()">
 
             <div class="bottom-text">
-                    Não tem uma conta? <a href="Register.html">Inscrever-se</a>
+                    Já tem uma conta? <a href="index.html">Entrar</a>
             </div>
         </form>
 
