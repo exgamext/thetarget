@@ -33,7 +33,7 @@ body, html {
     text-align: center;
     margin-bottom: 60px;
 }
-  
+
 .txtb{
     border-bottom: 2px solid #882828;
     position: relative;
@@ -50,7 +50,7 @@ body, html {
     padding: 0 5px;
     height: 40px;
 }
-  
+
 .txtb span::before{
     content: attr(data-placeholder);
     position: absolute;
@@ -105,3 +105,10 @@ body, html {
 a:link{
     color: #a83131;
 }
+
+a:visited{
+    color: #882828
+}
+
+/* Página de registro */
+
