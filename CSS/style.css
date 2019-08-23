@@ -152,8 +152,8 @@ a:visited{
     position: absolute;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 2px;
   }
   .front {
@@ -165,11 +165,11 @@ a:visited{
     background: #0b76ef;
     text-align: center;
     color: #fff;
-    line-height: 20px;
+    line-height: 15px;
     box-shadow: 0 0 0 1px #0b76ef;
   }
   .back svg {
-    margin-top: 3px;
+    margin-top: 1px;
     fill: none;
   }
   .back svg path {
